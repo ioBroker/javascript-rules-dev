@@ -1,0 +1,51 @@
+{
+    "name": "@iobroker/javascript-rules-dev",
+    "version": "0.0.1",
+    "description": "Required for ioBroker Javascript Rules Block development",
+    "author": {
+        "name": "bluefox",
+        "email": "dogafox@gmail.com"
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "homepage": "https://github.com/ioBroker/javascript-rules-dev",
+    "keywords": [
+        "ioBroker",
+        "rules"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ioBroker/javascript-rules-dev"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "@alcalzone/release-script": "^3.8.0",
+        "@alcalzone/release-script-plugin-license": "^3.7.0",
+        "@iobroker/adapter-react-v5": "^7.4.12",
+        "@iobroker/types": "^7.0.6",
+        "@iobroker/eslint-config": "^1.0.0",
+        "@types/react": "^18.3.18",
+        "typescript": "~5.7.3"
+    },
+    "bugs": {
+        "url": "https://github.com/ioBroker/javascript-rules-dev/issues"
+    },
+    "main": "build/types.d.ts",
+    "files": [
+        "LICENSE",
+        "*.js",
+        "*.d.ts",
+        "*.js.map"
+    ],
+    "scripts": {
+        "build": "tsc -p tsconfig.build.json && node tasks.js",
+        "release": "release-script",
+        "release-patch": "release-script patch --yes",
+        "release-minor": "release-script minor --yes",
+        "release-major": "release-script major --yes",
+        "npm": "npm i"
+    },
+    "license": "MIT",
+    "readmeFilename": "README.md"
+}
