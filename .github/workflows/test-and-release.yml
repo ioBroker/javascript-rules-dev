@@ -56,12 +56,10 @@ jobs:
               run: npm ci
 
             - name: Lint with eslint
-              if: startsWith(runner.OS, 'windows') == false
-              run: |
-                  npm run lint
+              run: npm run lint
+
             - name: Run build
-              run: |
-                  npm run build
+              run: npm run build
             #- name: Run unit tests
             #  run: |
             #    npm run test

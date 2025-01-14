@@ -4,12 +4,21 @@ import config from '@iobroker/eslint-config';
 
 export default [
     ...config,
+    {
+        languageOptions: {
+            parserOptions: {
+                allowDefaultProject: {
+                    allow: ['*.mjs'],
+                },
+                tsconfigRootDir: import.meta.dirname,
+                project: './tsconfig.json',
+            },
+        },
+    },
 
     {
         // specify files to exclude from linting here
-        ignores: [
-            'build',
-        ]
+        ignores: ['build', 'tasks.js', '*.mjs'],
     },
     {
         rules: {

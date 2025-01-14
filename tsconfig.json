@@ -38,6 +38,6 @@
         "useUnknownInCatchVariables": false,
         "types": ["@iobroker/types"]
     },
-    "include": ["src/**/*.ts", "./.eslintrc.js"],
+    "include": ["src/**/*.ts"],
     "exclude": ["build/**", "node_modules/**", "src-admin/**"]
 }

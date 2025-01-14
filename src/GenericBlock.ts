@@ -1,7 +1,5 @@
-import { IGenericBlock } from './IGenericBlock';
+import type { IGenericBlock } from './IGenericBlock';
 
-class GenericBlock {
-
-}
+class GenericBlock {}
 
 export default GenericBlock as unknown as IGenericBlock;
