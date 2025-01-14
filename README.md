@@ -8,7 +8,7 @@ Samples could be found in ioBroker.iot or ioBroker.telegram Adapters
 	Placeholder for the next version (at the beginning of the line):
 	### **WORK IN PROGRESS**
 -->
-### 0.0.3 (2025-01-14)
+### **WORK IN PROGRESS**
 
 * (@GermanBluefox) Initial commit
 
