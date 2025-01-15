@@ -32,7 +32,7 @@
   "bugs": {
     "url": "https://github.com/ioBroker/javascript-rules-dev/issues"
   },
-  "main": "build/types.d.ts",
+  "main": "build/index.js",
   "files": [
     "LICENSE",
     "*.js",
