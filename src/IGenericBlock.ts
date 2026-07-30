@@ -1,8 +1,7 @@
 import { PureComponent } from 'react';
-// eslint-disable-next-line no-duplicate-imports
 import type React from 'react';
 
-import { type AdminConnection, type IobTheme } from '@iobroker/adapter-react-v5';
+import { type AdminConnection, type IobTheme } from '@iobroker/gui-components';
 
 import type {
     RuleBlockConfig,
