@@ -1,6 +1,6 @@
 {
   "name": "@iobroker/javascript-rules-dev",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Required for ioBroker Javascript Rules Block development",
   "author": {
     "name": "bluefox",
