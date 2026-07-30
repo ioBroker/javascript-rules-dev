@@ -8,6 +8,9 @@ Samples could be found in ioBroker.iot or ioBroker.telegram Adapters
 	Placeholder for the next version (at the beginning of the line):
 	### **WORK IN PROGRESS**
 -->
+### **WORK IN PROGRESS**
+* (@GermanBluefox) Migrated to React 19
+
 ### 0.0.6 (2025-01-15)
 
 * (@GermanBluefox) Initial commit
@@ -16,7 +19,7 @@ Samples could be found in ioBroker.iot or ioBroker.telegram Adapters
 
 The MIT License (MIT)
 
-Copyright (c) 2025 Denis Haev <dogafox@gmail.com>
+Copyright (c) 2025-2026 Denis Haev <dogafox@gmail.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

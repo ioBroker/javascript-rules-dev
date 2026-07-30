@@ -11,7 +11,6 @@ export default [
                     allow: ['*.mjs'],
                 },
                 tsconfigRootDir: import.meta.dirname,
-                project: './tsconfig.json',
             },
         },
     },
