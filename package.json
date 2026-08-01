@@ -27,7 +27,7 @@
     "@iobroker/types": "^7.2.2",
     "@iobroker/eslint-config": "^2.3.4",
     "@types/react": "^19.2.17",
-    "typescript": "~6.0.3"
+    "typescript": "~7.0.2"
   },
   "bugs": {
     "url": "https://github.com/ioBroker/javascript-rules-dev/issues"
