@@ -6,6 +6,7 @@ import { type AdminConnection, type IobTheme } from '@iobroker/gui-components';
 import type {
     RuleBlockConfig,
     RuleBlockDescription,
+    RuleBlockSummary,
     RuleContext,
     RuleInputAny,
     RuleInputButton,
@@ -95,7 +96,7 @@ export declare class IGenericBlock<
 
     static compile(_config: RuleBlockConfig, _context: RuleContext): string;
 
-    constructor(props: GenericBlockProps<Settings>, item: RuleBlockDescription);
+    protected constructor(props: GenericBlockProps<Settings>, item: RuleBlockDescription);
 
     static getDerivedStateFromProps(
         nextProps: GenericBlockProps<any>,
@@ -115,6 +116,16 @@ export declare class IGenericBlock<
     onUpdate(): void;
 
     onValueChanged(_value: any, _attr: string): void;
+
+    getSummary(): RuleBlockSummary | null;
+
+    protected objectName(oid: string | undefined): string | undefined;
+
+    protected optionTitle(
+        attr: string,
+        value: string | number | boolean | null | undefined,
+        field: 'title' | 'title2',
+    ): string | undefined;
 
     renderText: (input: RuleInputText, value: string, onChange: (value: string) => void) => React.JSX.Element;
 

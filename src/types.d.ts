@@ -20,6 +20,21 @@ export type RuleTagCardTitle =
     | 'on update'
     | 'control';
 
+/**
+ * A short description of what *one particular* block does - "Flur · Bewegung" instead of "Zustand".
+ *
+ * A block returns this from `getSummary()`. It is what the card shows instead of its generic name,
+ * and it is what makes a collapsed block readable.
+ */
+export interface RuleBlockSummary {
+    /** Small line above the title, usually the selected variant: "bei Änderung", "Steuerung" */
+    kicker?: string;
+    /** The one line that tells this block apart from every other block of the same type */
+    title: string;
+    /** Muted second line for the detail behind the title, e.g. the object ID behind its name */
+    subtitle?: string;
+}
+
 export interface RuleTagCard {
     title: RuleTagCardTitle;
     title2: string;

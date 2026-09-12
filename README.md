@@ -1,13 +1,16 @@
 # ioBroker JavaScript Rules Block
 This module is required to develop Rule Blocks for ioBroker.javascript Adapter.
 
-Samples could be found in ioBroker.iot or ioBroker.telegram Adapters
+Samples could be found in `ioBroker.iot` or `ioBroker.telegram` Adapters
 
 ## Changelog
 <!--
 	Placeholder for the next version (at the beginning of the line):
 	### **WORK IN PROGRESS**
 -->
+### **WORK IN PROGRESS**
+* (@GermanBluefox) Extended the Block with summary types
+
 ### 1.0.2 (2026-07-30)
 * (@GermanBluefox) Migrated to React 19
 
